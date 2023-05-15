@@ -34,3 +34,13 @@ Replace the background image by providing your own image file and updating the `
 - Replace the sound effect and background music files with your own audio files.
 Modify the text label by changing the text, position, size, and color in the Text.new line.
 - Customize the keyboard input handling by modifying the `on :key_held`, `on :key_up`, and `on :key_down` blocks.
+
+Feel free to experiment and make the game your own!
+### License
+This project is licensed under the MIT License.
+### Acknowledgments
+This game was built using the Ruby2D library.
+Special thanks to the contributors of the Ruby2D project for creating and maintaining the library.
+Resources
+Ruby2D Documentation: https://ruby2d.com/documentation/
+Ruby Programming Language: https://www.ruby-lang.org/
