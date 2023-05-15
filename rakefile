@@ -1,0 +1,24 @@
+task :clean do
+    # Add code to clean build directory
+    puts "Cleaning..."
+  end
+  
+  task :compile do
+    # Add code to compile your Ruby code
+    puts "Compiling..."
+  end
+  
+  task :test do
+    # Add code to run tests
+    puts "Running tests..."
+  end
+  
+  task :package do
+    # Add code to create a distributable package
+    puts "Creating package..."
+  end
+  
+  task build: [:clean, :compile, :test, :package] do
+    puts "Build complete!"
+  end
+  
